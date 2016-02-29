@@ -1,7 +1,7 @@
 {
-    "name": "mlpz/postmark-bundle",
+    "name": "coreydoughty/postmark-bundle",
     "type": "symfony-bundle",
-    "description": "postmark bundle",
+    "description": "my fork of postmark bundle",
     "keywords": ["postmark","api", "mailer"],
     "homepage": "http://www.mlpz.mp",
     "license": "MIT",
@@ -12,8 +12,8 @@
         }
     ],
     "require": {
-        "php": ">=5.3.2",
-        "symfony/framework-bundle": "2.*",
+        "php": ">=5.5.9",
+        "symfony/framework-bundle": ">=2.0",
         "kriswallsmith/buzz":">=0.9"
     },
     "autoload": {
